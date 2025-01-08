@@ -17,6 +17,31 @@ export default function NavBar() {
         section.scrollIntoView({ behavior: "smooth"});
       }
     }
+
+    useEffect(() => {
+      const handleScroll = (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) { // if entry visible in viewport
+            const sectionID = entry.target.id;
+            const navItem = navItems.find(item => item.toLowerCase().replace(" ", "-") === sectionID);
+            if (navItem) {
+              setSelectedNavItem(navItem);
+            }
+          }
+        });
+      };
+  
+      const observer = new IntersectionObserver(handleScroll, {
+        threshold: 0.5, // callback is executed when 50% of the target is visible
+      });
+  
+      const sections = document.querySelectorAll('.page-content');
+      sections.forEach((section) => observer.observe(section));
+  
+      return () => {
+        sections.forEach((section) => observer.unobserve(section));
+      };
+    }, [navItems]);
   
     return (
       <div id="nav-bar" className="flex items-center mr-[80px] font-title fixed top-0 right-0">
