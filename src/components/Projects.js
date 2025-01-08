@@ -21,8 +21,8 @@ export default function Projects () {
   
     return (
       <div className="page-content">
-        <div id="page-title" className="mx-[50px] my-[30px] text-[50px] font-title">Projects</div>
-        <div id="projects" className="flex flex-col gap-[33px] ml-[50px]">
+        <div className="page-title">Projects</div>
+        <div id="projects" className="flex flex-col gap-[33px]">
             {projects.map(((project) => (
               <Project key={project.title} title={project.title} desc={project.desc} tags={project.tags} />
             )
@@ -35,7 +35,7 @@ export default function Projects () {
   
   function Project(props) {
     return (
-      <div id="project-box" className="flex p-[20px] gap-[35px] bg-med-purple w-[930px] rounded-[3px]">
+      <div id="project-box" className="flex p-[20px] gap-[35px] bg-med-purple w-[900px] rounded-[3px]">
         <img 
           id="project-image"
           className="w-[200px] h-[110px] object-cover rounded-[3px]"

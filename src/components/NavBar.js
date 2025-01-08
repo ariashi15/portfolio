@@ -10,7 +10,7 @@ export default function NavBar() {
     }, [selectedNavItem]);
   
     return (
-      <div id="nav-bar" className="flex items-center mr-[60px] font-title relative">
+      <div id="nav-bar" className="flex items-center mr-[80px] font-title relative">
         <div id="nav-text" className="flex flex-col gap-[80px] mr-[56px]">
           {navItems.map((item, index) => (
             <div key={item} className="flex items-center justify-end gap-[40px]">

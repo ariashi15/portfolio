@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    b {
+        @apply font-bold;
+    }
+}
+
+@layer components {
+    .page-content {
+        @apply ml-[80px] h-screen;
+    }
+    .page-title {
+        @apply my-[30px] text-[50px] font-title;
+    }
+}
