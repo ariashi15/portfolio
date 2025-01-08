@@ -15,13 +15,13 @@ export default function NavBar() {
           {navItems.map((item, index) => (
             <div key={item} className="flex items-center justify-end gap-10">
               <div 
-                className={`w-full text-right ${selectedNavItem === item ? "text-3xl text-dark-purple" : "text-2xl text-dark-blue"}`}
+                className={`w-full text-right transform transition-all duration-300 origin-right ${selectedNavItem === item ? "text-3xl text-dark-purple" : "text-2xl text-dark-blue"} hover:text-3xl`}
                 onClick={() => setSelectedNavItem(item)}
                 >{item}</div>
             </div>
           ))}
         </div>
-        <div className="relative flex items-center justify-center w-0.5 h-screen">
+        <div id="nav-line" className="relative flex items-center justify-center w-0.5 h-screen">
           <Dots />
           <div id="vertical-line" className="absolute w-full h-full bg-dark-blue"></div>
         </div>
