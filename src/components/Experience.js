@@ -35,7 +35,7 @@ export default function Experience() {
     ]
 
     return (
-        <div className="page-content">
+        <div id="experience" className="page-content">
             <div className="title-wrapper w-[230px]">
                 <div className="title-bg"></div>
                 <div className="page-title">Experience</div>

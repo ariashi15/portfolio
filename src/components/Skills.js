@@ -51,7 +51,7 @@ export default function Skills() {
     ];
 
     return (
-        <div className="page-content">
+        <div id="skills" className="page-content">
             <div className="title-wrapper w-[450px]">
                 <div className="title-bg"></div>
                 <div className="page-title">Skills & Technologies</div>

@@ -8,6 +8,15 @@ export default function NavBar() {
     useEffect(() => {
       console.log(`selected item: ${selectedNavItem}`);
     }, [selectedNavItem]);
+
+    const handleNavClick = (item) => {
+      setSelectedNavItem(item);
+      const sectionID = item.toLowerCase().replace(" ", "-");
+      const section = document.getElementById(sectionID);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth"});
+      }
+    }
   
     return (
       <div id="nav-bar" className="flex items-center mr-[80px] font-title fixed top-0 right-0">
@@ -16,7 +25,7 @@ export default function NavBar() {
             <div key={item} className="flex items-center justify-end gap-[40px]">
               <div 
                 className={`w-full text-right transform transition-all duration-500 origin-right ${selectedNavItem === item ? "text-[30px] text-dark-purple" : "text-[24px] text-dark-blue"} hover:text-[30px] hover:text-dark-purple`}
-                onClick={() => setSelectedNavItem(item)}
+                onClick={() => handleNavClick(item)}
                 >{item}</div>
             </div>
           ))}

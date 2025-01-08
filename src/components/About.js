@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className="page-content flex flex-col justify-center">
+        <div id="about-me" className="page-content flex flex-col justify-center">
             <div className="title-wrapper w-[480px]">
                 <div className="title-bg"></div>
                 <div className="page-title text-[100px]">Hi! I'm Aria.</div>

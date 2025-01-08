@@ -15,7 +15,7 @@ export default function Contact() {
     ]
 
     return (
-        <div className="page-content">
+        <div id="contact" className="page-content">
             <div className="title-wrapper w-[380px]">
                 <div className="title-bg"></div>
                 <div className="page-title">Let's get in touch!</div>
