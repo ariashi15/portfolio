@@ -21,8 +21,8 @@ export default function Projects () {
   
     return (
       <div className="page-content">
-        <div className="page-title">Projects</div>
-        <div className="projects">
+        <div id="page-title" className="mx-[50px] my-[30px] text-[50px] font-title">Projects</div>
+        <div id="projects" className="flex flex-col gap-[33px] ml-[50px]">
             {projects.map(((project) => (
               <Project key={project.title} title={project.title} desc={project.desc} tags={project.tags} />
             )
@@ -35,18 +35,20 @@ export default function Projects () {
   
   function Project(props) {
     return (
-      <div className="project-box">
-        <img className="project-image"
+      <div id="project-box" className="flex p-[20px] gap-[35px] bg-med-purple w-[930px] rounded-[3px]">
+        <img 
+          id="project-image"
+          className="w-[200px] h-[110px] object-cover rounded-[3px]"
           src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
           alt="placeholder"
         />
   
-        <div className="project-info">
-          <div className="project-title">{props.title}</div>
-          <div className="project-desc">{props.desc}</div>
-          <div className="project-tags">
+        <div className="flex flex-col">
+          <div className="text-[24px] pb-[10px] font-title">{props.title}</div>
+          <div className="text-[16px]">{props.desc}</div>
+          <div id="project-tags" className="flex gap-[10px] mt-auto">
             {props.tags.map((tag) => (
-              <div className="tag">{tag}</div>
+              <div className="flex bg-dark-purple text-[16px] rounded-[5px] px-[10px] h-[21px] items-center justify-center text-light-purple">{tag}</div>
             ))}
           </div>
         </div>
