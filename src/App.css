@@ -10,7 +10,7 @@
 
 @layer components {
     .page-content {
-        @apply ml-[100px] h-screen;
+        @apply ml-[100px] mb-[200px];
     }
     .page-title {
         @apply my-[30px] text-[50px] font-title relative;
