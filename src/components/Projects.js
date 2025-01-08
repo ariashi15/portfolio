@@ -35,10 +35,10 @@ export default function Projects () {
   
   function Project(props) {
     return (
-      <div id="project-box" className="flex p-[20px] gap-[35px] bg-med-purple w-[900px] rounded-[3px]">
+      <div id="project-box" className="flex p-[20px] gap-[35px] bg-med-purple w-[900px] rounded-[5px]">
         <img 
           id="project-image"
-          className="w-[200px] h-[110px] object-cover rounded-[3px]"
+          className="w-[200px] h-[110px] object-cover rounded-[5px]"
           src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
           alt="placeholder"
         />
