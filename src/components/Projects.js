@@ -38,7 +38,7 @@ export default function Projects () {
       <div className="project-box">
         <img className="project-image"
           src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
-          alt="empty image"
+          alt="placeholder"
         />
   
         <div className="project-info">

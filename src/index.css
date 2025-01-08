@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Mangiola';
+    src: url('./assets/fonts/Mangiola-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'SF Compact Light';
+    src: url('./assets/fonts/SF-Compact-Display-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
