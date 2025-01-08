@@ -18,3 +18,17 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'SF Compact Thin Italic';
+  src: url('/public/assets/fonts/SF-Compact-Text-ThinItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Compact Regular Italic';
+  src: url('/public/assets/fonts/SF-Compact-Text-RegularItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

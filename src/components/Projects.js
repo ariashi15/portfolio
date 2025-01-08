@@ -1,3 +1,5 @@
+import Tags from "./Tags";
+
 export default function Projects () {
   const projects = [
     {
@@ -46,11 +48,7 @@ export default function Projects () {
         <div className="flex flex-col">
           <div className="text-[24px] pb-[10px] font-title">{props.title}</div>
           <div className="text-[16px]">{props.desc}</div>
-          <div id="project-tags" className="flex gap-[10px] mt-auto">
-            {props.tags.map((tag) => (
-              <div className="flex bg-dark-purple text-[16px] rounded-[5px] px-[10px] h-[21px] items-center justify-center text-light-purple">{tag}</div>
-            ))}
-          </div>
+          <Tags tags={props.tags}/>
         </div>
       </div>
     );

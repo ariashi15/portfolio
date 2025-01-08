@@ -15,7 +15,7 @@ export default function NavBar() {
           {navItems.map((item, index) => (
             <div key={item} className="flex items-center justify-end gap-[40px]">
               <div 
-                className={`w-full text-right transform transition-all duration-300 origin-right ${selectedNavItem === item ? "text-[30px] text-dark-purple" : "text-[24px] text-dark-blue"} hover:text-[30px] hover:text-dark-purple`}
+                className={`w-full text-right transform transition-all duration-500 origin-right ${selectedNavItem === item ? "text-[30px] text-dark-purple" : "text-[24px] text-dark-blue"} hover:text-[30px] hover:text-dark-purple`}
                 onClick={() => setSelectedNavItem(item)}
                 >{item}</div>
             </div>
