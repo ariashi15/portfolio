@@ -4,7 +4,7 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="body">
+    <div className="bg-light-purple text-dark-blue font-body flex justify-between">
       <Projects />
       <NavBar />
     </div>
