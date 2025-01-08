@@ -4,13 +4,13 @@
 
 @layer base {
     b {
-        @apply font-bold;
+        @apply font-boldbody;
     }
 }
 
 @layer components {
     .page-content {
-        @apply ml-[80px] h-screen;
+        @apply ml-[100px] h-screen;
     }
     .page-title {
         @apply my-[30px] text-[50px] font-title;

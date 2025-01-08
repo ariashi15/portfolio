@@ -12,7 +12,8 @@ module.exports = {
 
       fontFamily: {
         title: ['Mangiola, sans-serif'],
-        body: ['SF Compact Light, sans-serif']
+        body: ['SF Compact Thin, sans-serif'],
+        boldbody: ['SF Compact Regular, sans-serif']
       }
     },
   },

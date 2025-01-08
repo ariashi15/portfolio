@@ -6,8 +6,15 @@
   }
 
 @font-face {
-    font-family: 'SF Compact Light';
-    src: url('./assets/fonts/SF-Compact-Display-Light.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'SF Compact Thin';
+  src: url('./assets/fonts/SF-Compact-Display-Thin.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Compact Regular';
+  src: url('./assets/fonts/SF-Compact-Display-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
