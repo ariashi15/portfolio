@@ -16,7 +16,10 @@ export default function Contact() {
 
     return (
         <div className="page-content">
-            <div className="page-title">Let's get in touch!</div>
+            <div className="title-wrapper w-[380px]">
+                <div className="title-bg"></div>
+                <div className="page-title">Let's get in touch!</div>
+            </div>
             <div className="w-[900px] leading-[45px] text-[24px] mb-[40px]">I’m currently looking for a full-time summer 2025 software engineering 
                 internship. Please feel free to reach out if you would like to work with me!</div>
             {contactinfo.map((contact) => (

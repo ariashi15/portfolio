@@ -36,7 +36,10 @@ export default function Experience() {
 
     return (
         <div className="page-content">
-            <div className="page-title">Experience</div>
+            <div className="title-wrapper w-[230px]">
+                <div className="title-bg"></div>
+                <div className="page-title">Experience</div>
+            </div>
             <div>
                 {experiences.map((experience) => (
                     <ExperienceCard 

@@ -52,10 +52,13 @@ export default function Skills() {
 
     return (
         <div className="page-content">
-            <div className="page-title">Skills & Technologies</div>
+            <div className="title-wrapper w-[450px]">
+                <div className="title-bg"></div>
+                <div className="page-title">Skills & Technologies</div>
+            </div>
             <div className="w-[900px] bg-med-purple flex flex-wrap items-center justify-center gap-[30px] p-[20px]">
                 {skills.map((skill) => (
-                    <div key={skill.name} className="flex flex-col items-center w-[13.5%] transform transition-all duration-500 hover:scale-110 hover:bg-med-dark-purple rounded-[5px] p-[10px]">
+                    <div key={skill.name} className="flex flex-col items-center w-[13.5%] transform transition-all duration-500 hover:scale-105 hover:bg-med-dark-purple rounded-[5px] p-[10px]">
                         <img src={skill.imageUrl} alt={skill.name} className="w-[70px]"/>
                         <div className="mt-[10px]">{skill.name}</div>
                     </div>

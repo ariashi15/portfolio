@@ -13,6 +13,14 @@
         @apply ml-[100px] h-screen;
     }
     .page-title {
-        @apply my-[30px] text-[50px] font-title;
+        @apply my-[30px] text-[50px] font-title relative;
+    }
+
+    .title-wrapper {
+        @apply relative flex flex-col items-center;
+    }
+
+    .title-bg {
+        @apply bg-med-dark-purple h-[20%] w-full absolute top-[53%];
     }
 }

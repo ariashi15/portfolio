@@ -23,7 +23,10 @@ export default function Projects () {
   
     return (
       <div className="page-content">
-        <div className="page-title">Projects</div>
+        <div className="title-wrapper w-[170px]">
+            <div className="title-bg"></div>
+            <div className="page-title">Projects</div>
+        </div>
         <div id="projects" className="flex flex-col gap-[33px]">
             {projects.map(((project) => (
               <Project key={project.title} title={project.title} desc={project.desc} tags={project.tags} />
