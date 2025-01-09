@@ -47,7 +47,7 @@ export default function NavBar() {
       <div id="nav-bar" className="flex items-center mr-[80px] font-title fixed top-0 right-0">
         <div id="nav-text" className="flex flex-col gap-[80px] mr-[56px]">
           {navItems.map((item, index) => (
-            <div key={item} className="flex items-center justify-end gap-[40px]">
+            <div key={index} className="flex items-center justify-end gap-[40px]">
               <div 
                 className={`w-full text-right transform transition-all duration-500 origin-right ${selectedNavItem === item ? "text-[30px] text-dark-purple" : "text-[24px] text-dark-blue"} hover:text-[30px] hover:text-dark-purple`}
                 onClick={() => handleNavClick(item)}
@@ -76,7 +76,9 @@ export default function NavBar() {
 
     return (
       <div className="absolute w-full flex flex-col items-center gap-[85px]">
-        {dots}
+        {dots.map((dot, index) => (
+          <div key={index}>{dot}</div>
+        ))}
       </div>
     );
   }

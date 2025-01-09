@@ -67,7 +67,7 @@ export default function Projects () {
   
   function Project(props) {
     return (
-      <div id="project-box" className="flex p-[20px] gap-[35px] bg-med-purple w-[900px] rounded-[5px]">
+      <div id="project-box" className="flex p-[20px] gap-[35px] transition-all duration-500 bg-med-purple w-[900px] hover:bg-med-dark-purple rounded-[5px]">
         <img 
           id="project-image"
           className="flex-shrink-0 w-[200px] h-[110px] object-cover rounded-[5px]"
