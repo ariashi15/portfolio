@@ -1,11 +1,11 @@
 export default function About() {
-    const titleArray = ["H", "i", "!", " ", "I", "'", "m", " ", "A", "r", "i", "a", "."];
+    const titleArray = ["H", "i", ",", " ", "I", "'", "m", " ", "A", "r", "i", "a", "!"];
 
     return (
         <div id="about-me" className="page-content flex flex-col justify-center h-screen">
-            <div className="title-wrapper w-[460px]">
+            <div className="title-wrapper w-[420px]">
                 <div className="title-bg"></div>
-                <div className="page-title text-[100px]">
+                <div className="page-title text-[90px]">
                     {titleArray.map((letter, index) => (
                         <span key={index} className="letter animate-slideFadeIn" style={{ '--index': index + 1 }}>{letter === ' ' ? '\u00A0' : letter}</span>
                         // use non-breaking space if there's a space
