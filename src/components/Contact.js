@@ -23,8 +23,10 @@ export default function Contact() {
                 <div className="title-bg"></div>
                 <div className="page-title">Let's get in touch!</div>
             </div>
-            <div className="w-[900px] leading-[45px] text-[24px] mb-[40px]">I’m currently looking for a full-time summer 2026 software engineering 
-                internship. Please feel free to reach out if you would like to work with me!</div>
+            <div className="w-[900px] leading-[40px] text-[22px] mb-[40px]">
+                I’m currently looking for a full-time <b>summer 2026 software engineering internship. </b> 
+                Please feel free to reach out if you would like to work with me!
+            </div>
             {contactinfo.map((contact, index) => (
                 <div key={index} className="flex items-center font-title text-[24px] gap-[20px] my-[10px]">
                     <img src={contact.iconUrl} alt="icon" className="w-[30px]"/>
