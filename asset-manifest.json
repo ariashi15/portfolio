@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.7308f2f7.css",
-    "main.js": "/personal-website/static/js/main.06929e29.js",
+    "main.js": "/personal-website/static/js/main.ed2db6db.js",
     "static/js/488.d07c9134.chunk.js": "/personal-website/static/js/488.d07c9134.chunk.js",
     "static/media/SF-Compact-Display-Regular.otf": "/personal-website/static/media/SF-Compact-Display-Regular.f8f4a98c16d488ec0b76.otf",
     "static/media/SF-Compact-Display-Thin.otf": "/personal-website/static/media/SF-Compact-Display-Thin.3f30d6aae8e3509d372b.otf",
@@ -10,11 +10,11 @@
     "static/media/Mangiola-Regular.ttf": "/personal-website/static/media/Mangiola-Regular.2d145b351511e45d1495.ttf",
     "index.html": "/personal-website/index.html",
     "main.7308f2f7.css.map": "/personal-website/static/css/main.7308f2f7.css.map",
-    "main.06929e29.js.map": "/personal-website/static/js/main.06929e29.js.map",
+    "main.ed2db6db.js.map": "/personal-website/static/js/main.ed2db6db.js.map",
     "488.d07c9134.chunk.js.map": "/personal-website/static/js/488.d07c9134.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7308f2f7.css",
-    "static/js/main.06929e29.js"
+    "static/js/main.ed2db6db.js"
   ]
 }
