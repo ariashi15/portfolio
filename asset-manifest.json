@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.54840738.css",
-    "main.js": "/portfolio/static/js/main.9919c00c.js",
+    "main.css": "/portfolio/static/css/main.b68c00a7.css",
+    "main.js": "/portfolio/static/js/main.e0f89721.js",
     "static/js/488.d07c9134.chunk.js": "/portfolio/static/js/488.d07c9134.chunk.js",
     "static/media/SF-Compact-Display-Regular.otf": "/portfolio/static/media/SF-Compact-Display-Regular.f8f4a98c16d488ec0b76.otf",
     "static/media/SF-Compact-Display-Thin.otf": "/portfolio/static/media/SF-Compact-Display-Thin.3f30d6aae8e3509d372b.otf",
@@ -9,12 +9,12 @@
     "static/media/SF-Compact-Text-ThinItalic.otf": "/portfolio/static/media/SF-Compact-Text-ThinItalic.10d2c0ad017bb8e162b8.otf",
     "static/media/Mangiola-Regular.ttf": "/portfolio/static/media/Mangiola-Regular.2d145b351511e45d1495.ttf",
     "index.html": "/portfolio/index.html",
-    "main.54840738.css.map": "/portfolio/static/css/main.54840738.css.map",
-    "main.9919c00c.js.map": "/portfolio/static/js/main.9919c00c.js.map",
+    "main.b68c00a7.css.map": "/portfolio/static/css/main.b68c00a7.css.map",
+    "main.e0f89721.js.map": "/portfolio/static/js/main.e0f89721.js.map",
     "488.d07c9134.chunk.js.map": "/portfolio/static/js/488.d07c9134.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54840738.css",
-    "static/js/main.9919c00c.js"
+    "static/css/main.b68c00a7.css",
+    "static/js/main.e0f89721.js"
   ]
 }
