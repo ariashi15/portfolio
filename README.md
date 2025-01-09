@@ -1,5 +1,5 @@
 # Web Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portfolio for all of my projects and experiences!
 
-Designed and built by Aria Shi.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
