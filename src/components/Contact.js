@@ -1,7 +1,7 @@
 export default function Contact() {
     const contactinfo = [
         {
-            iconUrl: "/assets/images/email.png",
+            iconUrl: `${process.env.PUBLIC_URL}/assets/images/email.png`,
             info: "ariashi@u.northwestern.edu",
             link: "mailto:ariashi@u.northwestern.edu"
         },
