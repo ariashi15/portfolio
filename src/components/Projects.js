@@ -10,7 +10,7 @@ export default function Projects () {
 
       `,
       tags: ["JavaScript", "HTML", "CSS", "Git", "GitHub"],
-      imgUrl: "/assets/images/sketchbook.png"
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/sketchbook.png`
     },
   
     {
@@ -21,7 +21,7 @@ export default function Projects () {
 
       `,
       tags: ["DSSL2"],
-      imgUrl: "/assets/images/tripplanner.jpg"
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/tripplanner.jpg`
     },
   
     {
@@ -33,7 +33,7 @@ export default function Projects () {
 
       `,
       tags: ["C++", "Google Test"],
-      imgUrl: "/assets/images/map.jpg"
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/map.jpg`
     },
 
     {
@@ -44,7 +44,7 @@ export default function Projects () {
       and a memory management module to write and read objects to memory.
       `,
       tags: ["C", "Google Test"],
-      imgUrl: "/assets/images/pythonex.png"
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/pythonex.png`
     },
   ]
   

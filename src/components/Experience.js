@@ -82,7 +82,7 @@ export default function Experience() {
                 ))}
             </div>
             <div className="group flex items-center font-bolditalicbody pt-[20px] gap-[5px]">
-                <a href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer">View my full resume</a>
+                <a href={`${process.env.PUBLIC_URL}/assets/resume.pdf`} target="_blank" rel="noopener noreferrer">View my full resume</a>
                 <div className="transform transition-all duration-500 group-hover:translate-x-1">→</div>
             </div>
 

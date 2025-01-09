@@ -2,51 +2,51 @@ export default function Skills() {
     const skills = [
         {
             name: "Python",
-            imageUrl: "/assets/images/python.png"
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/python.png`
         },
         {
             name: "C",
-            imageUrl: "/assets/images/c.png"
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/c.png`
         },
         {
             name: "C++",
-            imageUrl: "/assets/images/cpp.png"
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/cpp.png`
         },
         {
             name: "JavaScript",
-            imageUrl: "/assets/images/javascript.png"
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/javascript.png`
         },
         {
             name: "HTML",
-            imageUrl: "/assets/images/html.png"
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/html.png`
         },
         {
             name: "CSS",
-            imageUrl: "/assets/images/css.png"
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/css.png`
         },
         {
             name: "Swift",
-            imageUrl: "/assets/images/swift.png"
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/swift.png`
         },
         {
             name: "Git",
-            imageUrl: "/assets/images/git.png"
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/git.png`
         },
         {
             name: "Figma",
-            imageUrl: "/assets/images/figma.png"
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/figma.png`
         },
         {
             name: "React",
-            imageUrl: "/assets/images/react.png"
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/react.png`
         },
         {
             name: "PostgreSQL",
-            imageUrl: "/assets/images/postgres.png"
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/postgres.png`
         },
         {
             name: "Tailwind",
-            imageUrl: "/assets/images/tailwind.png"
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/tailwind.png`
         },
     ];
 

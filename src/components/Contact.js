@@ -6,12 +6,12 @@ export default function Contact() {
             link: "mailto:ariashi@u.northwestern.edu"
         },
         {
-            iconUrl: "/assets/images/linkedin.png",
+            iconUrl: `${process.env.PUBLIC_URL}/assets/images/linkedin.png`,
             info: "linkedin.com/in/aria-shi",
             link: "https://linkedin.com/in/aria-shi"
         },
         {
-            iconUrl: "/assets/images/github.png",
+            iconUrl: `${process.env.PUBLIC_URL}/assets/images/github.png`,
             info: "github.com/ariashi15",
             link: "https://github.com/ariashi15"
         }
