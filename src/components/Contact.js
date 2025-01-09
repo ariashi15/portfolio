@@ -18,7 +18,7 @@ export default function Contact() {
     ]
 
     return (
-        <div id="contact" className="page-content">
+        <div id="contact" className="page-content mb-[40px]">
             <div className="title-wrapper w-[380px]">
                 <div className="title-bg"></div>
                 <div className="page-title">Let's get in touch!</div>
@@ -31,6 +31,7 @@ export default function Contact() {
                     <a href={contact.link} target="_blank" rel="noopener noreferrer">{contact.info}</a>
                 </div>
             ))}
+            <div className="mt-[200px]">© 2024 Aria Shi. All rights reserved.</div>
         </div>
     );
 }

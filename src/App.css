@@ -8,12 +8,30 @@
     }
 }
 
+@keyframes slideFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 @layer components {
     .page-content {
         @apply ml-[100px] mb-[200px];
     }
     .page-title {
         @apply my-[30px] text-[50px] font-title relative;
+    }
+
+    .page-title .letter {
+        display: inline-block;
+        opacity: 0;
+        animation: slideFadeIn 0.5s forwards;
+        animation-delay: calc(0.1s * var(--index));
     }
 
     .title-wrapper {
