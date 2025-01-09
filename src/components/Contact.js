@@ -31,7 +31,7 @@ export default function Contact() {
                     <a href={contact.link} target="_blank" rel="noopener noreferrer">{contact.info}</a>
                 </div>
             ))}
-            <div className="mt-[200px]">© 2024 Aria Shi. All rights reserved.</div>
+            <div className="mt-[200px] font-italicbody">Built with React Native and styled with Tailwind CSS. © 2024 Aria Shi.</div>
         </div>
     );
 }
