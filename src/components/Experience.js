@@ -68,7 +68,7 @@ export default function Experience() {
             </div>
             <div>
                 {experiences.map((experience, index) => (
-                    <a key={index} href={experience.link} target="_blank" rel="noopener noreferrer">
+                    <div key={index}>
                         <ExperienceCard
                             id={experience.id}
                             company={experience.company}
@@ -78,7 +78,7 @@ export default function Experience() {
                             tags={experience.tags}
                             link={experience.link}
                         />
-                    </a>
+                    </div>
                 ))}
             </div>
             <div className="group flex items-center font-bolditalicbody pt-[20px] gap-[5px]">
@@ -98,13 +98,15 @@ function ExperienceCard(props) {
                 <div className="font-bolditalicbody">{props.company}</div>
                 <div className="font-italicbody">{props.dates}</div>
             </div>
-            <div id="details" className="rounded-[5px] pt-[8px] pb-[15px] px-[20px] mb-[20px] transition-all duration-500 hover:bg-med-purple">
-                <div className="font-title text-[24px]">{props.title}</div>
-                <div className="pt-[10px] pb-[17px]">{props.description}</div>
-                <div className="">
-                    <Tags tags={props.tags} />
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
+                <div id="details" className="rounded-[5px] pt-[8px] pb-[15px] px-[20px] mb-[20px] transition-all duration-500 border-[2px] border-light-purple hover:border-med-dark-purple">
+                    <div className="font-title text-[24px]">{props.title}</div>
+                    <div className="pt-[10px] pb-[17px]">{props.description}</div>
+                    <div className="">
+                        <Tags tags={props.tags} />
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     );
 }

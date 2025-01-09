@@ -41,7 +41,7 @@ export default function NavBar() {
       return () => {
         sections.forEach((section) => observer.unobserve(section));
       };
-    }, [navItems]);
+    });
   
     return (
       <div id="nav-bar" className="flex items-center mr-[80px] font-title fixed top-0 right-0">
