@@ -3,18 +3,6 @@ import Tags from "./Tags";
 export default function Experience() {
     const experiences = [
         {
-            id: 1,
-            company: "Walmart Global Tech",
-            dates: "Starting June 2025",
-            title: "Incoming Software Engineering Intern",
-            description:
-                `
-            Incoming full-stack software engineering intern at Walmart Global Tech, with focus on building user-centric solutions at scale.
-            `,
-            tags: [],
-            link: "https://tech.walmart.com/content/walmart-global-tech/en_us.html"
-        },
-        {
             id: 2,
             company: "Northwestern Univ.",
             dates: "Sept 2024 - Dec 2024",
