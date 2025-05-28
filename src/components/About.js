@@ -12,7 +12,7 @@ export default function About() {
                     ))}
                 </div>
             </div>
-            <div className="w-[900px] leading-[40px] text-[22px] animate-slideFadeIn">
+            <div className="w-[900px] leading-[40px] text-[22px]">
                 <p>
                     I’m a student at Northwestern University pursuing a double major 
                     in <b>Computer Science</b> and <b>Economics</b>, with a minor in <b>Business Institutions</b>. 
