@@ -3,6 +3,17 @@ import Tags from "./Tags";
 export default function Projects () {
   const projects = [
     {
+      title: "Farmstand",
+      desc: `
+      Full-stack application connecting local farmers to conscious consumers, built during a 24-hour hackathon. 
+      Included a PostgreSQL database schema to model farms, products, and inventory, as well as 
+      5 RESTful endpoints with Node.js and Express for fetching farm/product information and adding/updating inventory.
+      `,
+      tags: ["React", "Tailwind", "Git", "Express.js", "PostgreSQL", "Supabase"],
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/farmstand.jpg`,
+      link: 'https://devpost.com/software/farmstand?ref_content=my-projects-tab&ref_feature=my_projects'
+    },
+    {
       title: "Pixel Sketchbook",
       desc: `
       Interactive pixel art sketchbook with support for hover-to-draw functionality and opacity-based drawing to simulate layered strokes.
@@ -10,7 +21,8 @@ export default function Projects () {
 
       `,
       tags: ["JavaScript", "HTML", "CSS", "Git", "GitHub"],
-      imgUrl: `${process.env.PUBLIC_URL}/assets/images/sketchbook.png`
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/sketchbook.png`,
+      link: 'https://ariashi15.github.io/pixel-sketchbook/'
     },
   
     {
@@ -21,7 +33,8 @@ export default function Projects () {
 
       `,
       tags: ["DSSL2"],
-      imgUrl: `${process.env.PUBLIC_URL}/assets/images/tripplanner.jpg`
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/tripplanner.jpg`,
+      link: null
     },
   
     {
@@ -33,7 +46,8 @@ export default function Projects () {
 
       `,
       tags: ["C++", "Google Test"],
-      imgUrl: `${process.env.PUBLIC_URL}/assets/images/map.jpg`
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/map.jpg`,
+      link: null
     },
 
     {
@@ -44,8 +58,9 @@ export default function Projects () {
       and a memory management module to write and read objects to memory.
       `,
       tags: ["C", "Google Test"],
-      imgUrl: `${process.env.PUBLIC_URL}/assets/images/pythonex.png`
-    },
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/pythonex.png`,
+      link: null
+    }
   ]
   
     return (
@@ -56,7 +71,7 @@ export default function Projects () {
         </div>
         <div className="flex flex-col gap-[33px]">
             {projects.map(((project) => (
-              <Project key={project.title} title={project.title} desc={project.desc} tags={project.tags} imgUrl={project.imgUrl} />
+              <Project key={project.title} title={project.title} desc={project.desc} tags={project.tags} imgUrl={project.imgUrl} link={project.link} />
             )
             ))}
           </div>
@@ -67,19 +82,21 @@ export default function Projects () {
   
   function Project(props) {
     return (
-      <div id="project-box" className="flex p-[20px] gap-[35px] transition-all duration-500 bg-med-purple w-[900px] hover:bg-med-dark-purple rounded-[5px]">
-        <img 
-          id="project-image"
-          className="flex-shrink-0 w-[200px] h-[110px] object-cover rounded-[5px]"
-          src={props.imgUrl}
-          alt="placeholder"
-        />
-  
-        <div className="flex flex-col">
-          <div className="text-[24px] pb-[10px] font-title">{props.title}</div>
-          <div className="text-[16px] mb-[20px]">{props.desc}</div>
-          <Tags tags={props.tags}/>
+      <a href={props.link} target="_blank" rel="noopener noreferrer">
+        <div id="project-box" className="flex p-[20px] gap-[35px] transition-all duration-500 bg-med-purple w-[900px] hover:bg-med-dark-purple rounded-[5px]">
+          <img 
+            id="project-image"
+            className="flex-shrink-0 w-[200px] h-[110px] object-cover rounded-[5px]"
+            src={props.imgUrl}
+            alt="placeholder"
+          />
+    
+          <div className="flex flex-col">
+            <div className="text-[24px] pb-[10px] font-title">{props.title}</div>
+            <div className="text-[16px] mb-[20px]">{props.desc}</div>
+            <Tags tags={props.tags}/>
+          </div>
         </div>
-      </div>
+      </a>
     );
   }

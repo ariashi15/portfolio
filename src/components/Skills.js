@@ -48,6 +48,22 @@ export default function Skills() {
             name: "Tailwind",
             imageUrl: `${process.env.PUBLIC_URL}/assets/images/tailwind.png`
         },
+        {
+            name: "Express.js",
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/express.png`
+        },
+        {
+            name: "Supabase",
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/supabase.png`
+        },
+        {
+            name: "TypeScript",
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/typescript.png`
+        },
+        {
+            name: "AWS",
+            imageUrl: `${process.env.PUBLIC_URL}/assets/images/aws.png`
+        },
     ];
 
     return (
@@ -56,9 +72,9 @@ export default function Skills() {
                 <div className="title-bg"></div>
                 <div className="page-title">Skills & Technologies</div>
             </div>
-            <div className="w-[900px] bg-med-purple flex flex-wrap items-center justify-center gap-[30px] p-[20px]">
+            <div className="w-[900px] bg-med-purple flex flex-wrap items-center justify-center gap-[30px] p-[20px] rounded-[5px]">
                 {skills.map((skill) => (
-                    <div key={skill.name} className="flex flex-col items-center w-[13.5%] transform transition-all duration-500 hover:scale-105 hover:bg-med-dark-purple rounded-[5px] p-[10px]">
+                    <div key={skill.name} className="flex flex-col items-center w-[13%] transform transition-all duration-500 hover:scale-105 hover:bg-med-dark-purple rounded-[5px] p-[10px]">
                         <img src={skill.imageUrl} alt={skill.name} className="w-[70px]"/>
                         <div className="mt-[10px]">{skill.name}</div>
                     </div>

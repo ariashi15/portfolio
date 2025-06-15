@@ -3,21 +3,48 @@ import Tags from "./Tags";
 export default function Experience() {
     const experiences = [
         {
-            id: 2,
-            company: "Northwestern Univ.",
-            dates: "Sept 2024 - Dec 2024",
-            title: "Teaching Assistant",
+            id: 1,
+            company: "Capital One",
+            dates: "June 2025 - Present",
+            title: "Software Engineering Intern",
             description:
                 `
-            Taught students the basics of functional and imperative programming through 
-            weekly office hours and tutorial sessions for CS 111: Fundamentals of Computer Programming. Led small-group discussions on 
-            topics surrounding ethics in technology such as accessibility, identity, and accountability.
+            Create a full stack feature for Capital One’s web platform for small business cardholders to view and manage their accounts.
             `,
-            tags: ["Racket"],
-            link: "https://www.mccormick.northwestern.edu/computer-science/academics/undergraduate/peer-mentor-program/"
+            tags: [],
+            link: "https://www.capitalonecareers.com/internship-programs"
+        },
+        {
+            id: 2,
+            company: "Develop and Innovate for Social Change",
+            dates: "Jan 2024 - Present",
+            title: "Fullstack Developer",
+            description:
+                `
+            Developed customer relation management system for local senior center with team of 6.
+            Owned the full frontend design of the application; iteratively prototyped using Figma in close collaboration with the client. 
+            Led the design and implementation of relational database schema for managing participants, activities, and users.
+            Implemented role-based access control in compliance with HIPAA and admin dashboard to monitor platform activity.
+
+            `,
+            tags: ["React", "Express", "Supabase", "Figma"],
+            link: "https://www.discnu.org/"
         },
         {
             id: 3,
+            company: "Northwestern Univ.",
+            dates: "Sept 2024 - Present",
+            title: "Teaching Assistant for CS 110 and CS 111",
+            description:
+                `
+            Teach students the basics of object-oriented and functional programming through weekly office hours and tutorial sessions
+            Lead small-group discussions on topics surrounding ethics in technology such as accessibility, identity, and accountability.
+            `,
+            tags: ["Python", "Racket"],
+            link: "https://www.mccormick.northwestern.edu/computer-science/academics/undergraduate/peer-mentor-program/"
+        },
+        {
+            id: 4,
             company: "PrizeSole",
             dates: "June 2024 - Aug 2024",
             title: "Software Engineering Intern",
@@ -32,7 +59,7 @@ export default function Experience() {
             link: "https://prizesole.com/"
         },
         {
-            id: 4,
+            id: 5,
             company: "Lumos Debate",
             dates: "July 2021 - Aug 2024",
             title: "Director",
