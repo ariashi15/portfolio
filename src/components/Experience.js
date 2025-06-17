@@ -56,7 +56,7 @@ export default function Experience() {
             Designed UI from scratch using Figma, iterated on design to optimize functionality and improve user flow.
 
             `,
-            tags: ["Swift", "SwiftUI", "Git", "GitHub"],
+            tags: ["Swift", "SwiftUI", "Git"],
             link: "https://prizesole.com/"
         },
         {

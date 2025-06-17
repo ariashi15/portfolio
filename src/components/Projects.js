@@ -8,7 +8,7 @@ export default function Projects () {
       Leveraged MPI to parallelize a contrast stretching algorithm, achieving near-linear speedup (6x for 8 processes).
       `,
       tags: ["C++", "OpenMPI"],
-      imgUrl: `${process.env.PUBLIC_URL}/assets/images/contraststretch.jpg`,
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/contraststretch.jpeg`,
       link: null
     },
     {
