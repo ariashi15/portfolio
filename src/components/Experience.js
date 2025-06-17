@@ -67,7 +67,7 @@ export default function Experience() {
                 `
             Managed teams of 8+ instructors in sessions enrolling 40+ students, communicated with parents and rental contacts.
             Delivered quality student experience rated on average 9.1/10 by adapting curriculum via daily meetings with instructors.
-            Evaluated and addressed students’ strengths/weaknesses, wrote450-600 word progress reports to parents for each student.
+            Evaluated and addressed students’ strengths/weaknesses, wrote 450-600 word progress reports to parents for each student.
 
             `,
             tags: ["Team Management", "Communication"],

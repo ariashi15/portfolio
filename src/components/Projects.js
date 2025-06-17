@@ -3,6 +3,15 @@ import Tags from "./Tags";
 export default function Projects () {
   const projects = [
     {
+      title: "Image Contrast Stretcher",
+      desc: `
+      Leveraged MPI to parallelize a contrast stretching algorithm, achieving near-linear speedup (6x for 8 processes).
+      `,
+      tags: ["C++", "OpenMPI"],
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/contraststretch.jpg`,
+      link: null
+    },
+    {
       title: "Farmstand",
       desc: `
       Full-stack application connecting local farmers to conscious consumers, built during a 24-hour hackathon. 
@@ -12,6 +21,30 @@ export default function Projects () {
       tags: ["React", "Tailwind", "Git", "Express.js", "PostgreSQL", "Supabase"],
       imgUrl: `${process.env.PUBLIC_URL}/assets/images/farmstand.jpg`,
       link: 'https://devpost.com/software/farmstand?ref_content=my-projects-tab&ref_feature=my_projects'
+    },
+    {
+      title: "Open Street Map Navigator",
+      desc: `
+      Navigator for an open street map of Evanston. Included support for map searching, as well as 
+      integration of Chicago Transit Authority’s bus API to provide real-time bus information 
+      for stops nearest to any given building.
+
+      `,
+      tags: ["C++", "Google Test"],
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/map.jpg`,
+      link: null
+    },
+
+    {
+      title: "Python Execution Environment",
+      desc: `
+      Execution environment for a subset of the Python language developed using C. 
+      Components included a parser to validate syntax, an executor with support for function calls, assignment statements, etc., 
+      and a memory management module to write and read objects to memory.
+      `,
+      tags: ["C", "Google Test"],
+      imgUrl: `${process.env.PUBLIC_URL}/assets/images/pythonex.png`,
+      link: null
     },
     {
       title: "Pixel Sketchbook",
@@ -36,31 +69,6 @@ export default function Projects () {
       imgUrl: `${process.env.PUBLIC_URL}/assets/images/tripplanner.jpg`,
       link: null
     },
-  
-    {
-      title: "Open Street Map Navigator",
-      desc: `
-      Navigator for an open street map of Evanston. Included support for map searching, as well as 
-      integration of Chicago Transit Authority’s bus API to provide real-time bus information 
-      for stops nearest to any given building.
-
-      `,
-      tags: ["C++", "Google Test"],
-      imgUrl: `${process.env.PUBLIC_URL}/assets/images/map.jpg`,
-      link: null
-    },
-
-    {
-      title: "Python Execution Environment",
-      desc: `
-      Execution environment for a subset of the Python language developed using C. 
-      Components included a parser to validate syntax, an executor with support for function calls, assignment statements, etc., 
-      and a memory management module to write and read objects to memory.
-      `,
-      tags: ["C", "Google Test"],
-      imgUrl: `${process.env.PUBLIC_URL}/assets/images/pythonex.png`,
-      link: null
-    }
   ]
   
     return (
