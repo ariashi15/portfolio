@@ -8,23 +8,25 @@ export default function Experience() {
             dates: "June 2025 - Present",
             title: "Software Engineering Intern",
             description:
-                `
-            Create a full stack feature for Capital One’s web platform for small business cardholders to view and manage their accounts.
+                ` Expand account Status Hub to support multi-type card decline alerts for small business cardholders. 
+                Refactor existing messaging infrastructure and Status Hub API to handle different decline scenarios.
+                Employ Agile methodologies and task tracking with Jira to collaborate with team of 4.
+                Implement end-to-end testing workflows and conduct QA cycles.
             `,
-            tags: [],
+            tags: ["JavaScript", "TypeScript", "AWS", "YAML", "Angular"],
             link: "https://www.capitalonecareers.com/internship-programs"
         },
         {
             id: 2,
             company: "Develop and Innovate for Social Change",
-            dates: "Jan 2024 - Present",
+            dates: "Jan 2025 - Present",
             title: "Fullstack Developer",
             description:
                 `
-            Developed customer relation management system for local senior center with team of 6.
-            Owned the full frontend design of the application; iteratively prototyped using Figma in close collaboration with the client. 
-            Led the design and implementation of relational database schema for managing participants, activities, and users.
-            Implemented role-based access control in compliance with HIPAA and admin dashboard to monitor platform activity.
+            Develop CRM system for North Shore Senior Center with team of 6.
+            Own frontend design of 20+ pages; iteratively prototype using Figma.
+            Lead design and implementation of relational database schema.
+            Build role-based access control in compliance with HIPAA and admin dashboard to monitor platform activity.
 
             `,
             tags: ["React", "Express", "Supabase", "Figma"],
@@ -33,12 +35,12 @@ export default function Experience() {
         {
             id: 3,
             company: "Northwestern Univ.",
-            dates: "Sept 2024 - Present",
+            dates: "Sept 2024 - June 2025",
             title: "Teaching Assistant for CS 110 and CS 111",
             description:
                 `
-            Teach students the basics of object-oriented and functional programming through weekly office hours and tutorial sessions
-            Lead small-group discussions on topics surrounding ethics in technology such as accessibility, identity, and accountability.
+            Taught students object-oriented and functional programming through weekly office hours and tutorial sessions.
+            Led small-group discussions on topics surrounding ethics in technology such as accessibility and accountability.
             `,
             tags: ["Python", "Racket"],
             link: "https://www.mccormick.northwestern.edu/computer-science/academics/undergraduate/peer-mentor-program/"
@@ -51,8 +53,7 @@ export default function Experience() {
             description:
                 `
             Developed iOS app with team of 4 from the ground up for e-commerce start-up using Swift and SwiftUI. 
-            Designed UI from scratch using Figma, continuously iterated on design to optimize functionality and improve user flow.
-            Coordinated Git version control with team to collaborate smoothly on the implementation of new features.
+            Designed UI from scratch using Figma, iterated on design to optimize functionality and improve user flow.
 
             `,
             tags: ["Swift", "SwiftUI", "Git", "GitHub"],
