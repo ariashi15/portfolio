@@ -24,7 +24,7 @@ export default function Contact() {
                 <div className="page-title">Let's get in touch!</div>
             </div>
             <div className="w-[900px] leading-[40px] text-[22px] mb-[40px]">
-                I’m currently looking for a full-time <b>summer 2026 software engineering internship. </b> 
+                I’m currently looking for a <b>full-time software engineering role</b> beginning in the fall of 2027. 
                 Please feel free to reach out if you would like to work with me!
             </div>
             {contactinfo.map((contact, index) => (
@@ -33,7 +33,7 @@ export default function Contact() {
                     <a href={contact.link} target="_blank" rel="noopener noreferrer">{contact.info}</a>
                 </div>
             ))}
-            <div className="mt-[200px] font-italicbody">Built with React Native and styled with Tailwind CSS. © 2025 Aria Shi.</div>
+            <div className="mt-[200px] font-italicbody">Built with React Native, Tailwind CSS, Notion API and Cloudinary. © 2025 Aria Shi.</div>
         </div>
     );
 }
