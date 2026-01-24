@@ -10,7 +10,7 @@ export default function Experience() {
     useEffect(() => {
         async function fetchExperiences() {
             try {
-                const response = await fetch(`${apiBaseUrl}/experiences`)
+                const response = await fetch(`${apiBaseUrl}/experiences`);
 
                 if (!response.ok) {
                     throw new Error(`Request failed with status ${response.status}`);
@@ -38,8 +38,8 @@ export default function Experience() {
                 <div className="page-title">Experience</div>
             </div>
             <div>
-                {isLoading && <div>Loading experience...</div>}
-                {error && <div role="alert">Unable to load experience: {error}</div>}
+                {isLoading && <div>Loading experiences...</div>}
+                {error && <div role="alert">Unable to load experiences: {error}</div>}
                 {!isLoading && !error && experiences.map((experience, index) => (
                     <div key={index}>
                         <ExperienceCard
