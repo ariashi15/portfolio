@@ -48,7 +48,7 @@ export default function Experience() {
                             dates={experience.dates}
                             title={experience.title}
                             description={experience.description}
-                            // tags={experience.tags}
+                            tags={experience.tags}
                             link={experience.link}
                         />
                     </div>
@@ -75,9 +75,9 @@ function ExperienceCard(props) {
                 <div id="details" className="rounded-[5px] pt-[8px] pb-[15px] px-[20px] mb-[20px] transition-all duration-500 border-[2px] border-light-purple hover:border-med-dark-purple">
                     <div className="font-title text-[24px]">{props.title}</div>
                     <div className="pt-[10px] pb-[17px]">{props.description}</div>
-                    {/* <div className="">
+                    <div className="">
                         <Tags tags={props.tags} />
-                    </div> */}
+                    </div>
                 </div>
             </a>
         </div>
