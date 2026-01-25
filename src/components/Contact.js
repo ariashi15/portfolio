@@ -23,7 +23,7 @@ export default function Contact() {
                 <div className="title-bg"></div>
                 <div className="page-title">Let's get in touch!</div>
             </div>
-            <div className="w-[900px] leading-[40px] text-[22px] mb-[40px]">
+            <div className="lg:w-2/3 md:w-1/2 sm:w-1/3 leading-[40px] text-[22px] mb-[40px]">
                 I’m currently looking for a <b>full-time software engineering role</b> beginning in the fall of 2027. 
                 Please feel free to reach out if you would like to work with me!
             </div>
@@ -33,7 +33,7 @@ export default function Contact() {
                     <a href={contact.link} target="_blank" rel="noopener noreferrer">{contact.info}</a>
                 </div>
             ))}
-            <div className="mt-[200px] font-italicbody">Built with React Native, Tailwind CSS, Notion API and Cloudinary. © 2025 Aria Shi.</div>
+            <div className="mt-[200px] font-italicbody">Built by Aria Shi with React Native, Tailwind CSS, Notion API and Cloudinary. Last updated January 2026.</div>
         </div>
     );
 }

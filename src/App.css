@@ -6,6 +6,10 @@
     b {
         @apply font-boldbody;
     }
+    
+    html, body {
+        @apply overflow-x-hidden;
+    }
 }
 
 @keyframes slideFadeIn {

@@ -44,7 +44,7 @@ export default function NavBar() {
     });
   
     return (
-      <div id="nav-bar" className="flex items-center mr-[80px] font-title fixed top-0 right-0">
+      <div id="nav-bar" className="hidden sm:flex items-center mr-[80px] font-title fixed top-0 right-0">
         <div id="nav-text" className="flex flex-col gap-[80px] mr-[56px]">
           {navItems.map((item, index) => (
             <div key={index} className="flex items-center justify-end gap-[40px]">

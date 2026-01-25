@@ -12,7 +12,7 @@ export default function About() {
                     ))}
                 </div>
             </div>
-            <div className="w-[920px] leading-[40px] text-[22px]">
+            <div className="lg:w-2/3 md:w-1/2 sm:w-1/3 leading-[40px] text-[22px]">
                 <p>
                     I’m a student at Northwestern University pursuing a double major in <b>Computer Science</b> and <b>Economics</b>, 
                     with a minor in <b>Business Institutions</b>. 

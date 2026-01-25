@@ -36,11 +36,11 @@ export default function Skills() {
                 <div className="title-bg"></div>
                 <div className="page-title">Skills & Technologies</div>
             </div>
-            <div className="w-[900px] bg-med-purple flex flex-wrap items-center justify-center gap-[30px] p-[20px] rounded-[5px]">
+            <div className="lg:w-2/3 md:w-1/2 sm:w-1/3 bg-med-purple flex flex-wrap flex-shrink-0 items-center justify-center gap-[30px] p-[20px] rounded-[5px]">
                 {isLoading && <div>Loading skills...</div>}
                 {error && <div>Unable to load skills: {error}</div>}
                 {!isLoading && !error && skills.map((skill, index) => (
-                    <div key={index} className="flex flex-col items-center w-[13%] transform transition-all duration-500 hover:scale-105 hover:bg-med-dark-purple rounded-[5px] p-[10px]">
+                    <div key={index} className="flex flex-col flex-shrink-0 items-center w-[120px] transform transition-all duration-500 hover:scale-105 hover:bg-med-dark-purple rounded-[5px] p-[10px]">
                         <img src={skill.imgurl} alt={skill.name} className="w-[70px]"/>
                         <div className="mt-[10px]">{skill.name}</div>
                     </div>

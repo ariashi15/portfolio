@@ -66,7 +66,7 @@ export default function Experience() {
 
 function ExperienceCard(props) {
     return (
-        <div className="flex gap-[15px] w-[900px]">
+        <div className="flex gap-[15px] lg:w-2/3 md:w-1/2 sm:w-1/3">
             <div id="timeline" className="w-[200px] flex-shrink-0 bg-med-purple p-[15px]">
                 <div className="font-bolditalicbody">{props.company}</div>
                 <div className="font-italicbody">{props.dates}</div>
