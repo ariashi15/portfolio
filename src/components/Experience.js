@@ -5,7 +5,7 @@ export default function Experience() {
     const [experiences, setExperiences] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
-    const apiBaseUrl = process.env.REACT_APP_API_URL_PROD ?? "";
+    const apiBaseUrl = 'https://portfolio-backend-blond-eight.vercel.app/api' ?? "";
 
     useEffect(() => {
         async function fetchExperiences() {
