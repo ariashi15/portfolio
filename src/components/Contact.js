@@ -33,7 +33,7 @@ export default function Contact() {
                     <a href={contact.link} target="_blank" rel="noopener noreferrer">{contact.info}</a>
                 </div>
             ))}
-            <div className="mt-[200px] font-italicbody">Built by Aria Shi with React Native, Tailwind CSS, Notion API and Cloudinary. Last updated January 2026.</div>
+            <div className="mt-[200px] font-italicbody">Built by Aria Shi with React Native, Tailwind CSS, Notion API, and Cloudinary. Last updated January 2026.</div>
         </div>
     );
 }
