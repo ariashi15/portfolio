@@ -29,7 +29,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          REACT_APP_API_URL: ${{ vars.REACT_APP_API_URL_PROD }}
+          REACT_APP_API_URL_PROD: ${{ vars.REACT_APP_API_URL_PROD }}
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
